@@ -46,8 +46,8 @@ describe("Here I Test User class", function () {
     // 2- should retrun true if the payment is verified
     it("should retrun true if the payment is verified", function () {
       fakeObj.isVerify.and.returnValue(true);
-      let returndeString = user.checkout(fakeObj);
-      expect(returndeString).toBe(true);
+      let returnedString = user.checkout(fakeObj);
+      expect(returnedString).toBe(true);
     });
   });
 });
