@@ -1,0 +1,14 @@
+{
+  "name": "lap2",
+  "version": "1.0.0",
+  "description": "lap2 unit testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Ali",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.0.2"
+  }
+}
